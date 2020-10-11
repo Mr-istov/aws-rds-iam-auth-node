@@ -1,0 +1,21 @@
+{
+  "name": "aws-rds-iam-auth-node",
+  "version": "0.0.1",
+  "description": "Example on how to authenticate to an RDS database using IAM",
+  "main": "index.js",
+  "repository": "https://github.com/Mr-istov/aws-rds-iam-auth-node",
+  "author": "Marjan Ristov",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "any-db": "^2.2.1",
+    "any-db-postgres": "^2.1.5",
+    "aws-sdk": "^2.771.0",
+    "dotenv": "^8.2.0",
+    "typescript": "^4.0.3"
+  },
+  "devDependencies": {
+    "@types/any-db": "^2.1.31",
+    "@types/node": "^14.11.8"
+  }
+}
